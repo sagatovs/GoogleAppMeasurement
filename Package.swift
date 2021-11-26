@@ -39,7 +39,7 @@ let package = Package(
     .package(
       name: "nanopb",
       url: "https://github.com/firebase/nanopb.git",
-      "2.30908.0" ..< "2.30909.0"
+      .revision("cf6e0615f33e1fcbad0e0cf6933aea9de9bab095")
     ),
   ],
   targets: [
